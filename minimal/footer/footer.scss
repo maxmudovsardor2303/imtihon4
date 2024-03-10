@@ -1,0 +1,101 @@
+.booster{
+    width: 900px;
+    background-color: rgba(2, 137, 122, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    // gap: 30px;
+    .booster-item{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        h2{
+            color: #fff;
+        }
+        
+    }
+    .btn4{
+        width: 100px;
+        height: 30px;
+        border-radius: 7px;
+        border: none;
+        margin-top: 20px;
+        color: rgba(2, 137, 122, 1);
+   }
+   .booster-box{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+   }
+}
+
+@media (max-width: 1100px) {
+    .booster{
+        width: 100%;
+        background-color: rgba(2, 137, 122, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 10px;
+        .booster-item{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            h2{
+                color: #fff;
+            }
+        }
+        .btn4{
+            width: 80px;
+            height: 20px;
+            border-radius: 7px;
+            border: none;
+            margin-top: 20px;
+            color: rgba(2, 137, 122, 1);
+       }
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .booster{
+        width: 100%;
+        background-color: rgba(2, 137, 122, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 150px;
+        border-radius: 10px;
+        .booster-item{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            h2{
+                color: #fff;
+            }
+        }
+        .btn4{
+            width: 80px;
+            height: 20px;
+            border-radius: 7px;
+            border: none;
+            margin-top: 20px;
+            color: rgba(2, 137, 122, 1);
+       }
+    }
+    .booster-box{
+        width: 40%;
+    }
+    
+}

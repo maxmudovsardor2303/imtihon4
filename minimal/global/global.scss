@@ -10,3 +10,36 @@
     list-style: none;
     text-decoration: none;
 }
+
+@font-face {
+    font-family: "poppins";
+    src: url(../header/Poppins/Poppins-Regular.ttf);
+}
+
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+body{
+    background-color: rgba(31, 46, 53, 1);
+}
+
+@media (max-width: 1300px) {
+    .container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }    
+}
+@media (max-width: 700px) {
+    .container{
+        padding-left: 70px;
+        padding-right: 70px;
+    }    
+}
+@media (max-width: 500px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }    
+}

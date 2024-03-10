@@ -1,1 +1,339 @@
-/*# sourceMappingURL=main.css.map */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-top: 150px;
+}
+main .section {
+  display: flex;
+  gap: 50px;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .section .asied {
+  display: flex;
+  height: 100%;
+}
+main .section .time-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+main .section .time-box h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+main .section .time {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+main .section .time p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media (max-width: 590px) {
+  main {
+    width: 100%;
+    padding-top: 150px;
+  }
+  main .section {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main .section .asied {
+    display: flex;
+  }
+  main .section .time-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  main .section .time-box h2 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  main .section .time {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+  }
+  main .section .time p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .section .section-img {
+    width: 80%;
+  }
+}
+.asked {
+  width: 100%;
+  margin-top: 150px;
+}
+.asked .asked-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.asked .asked-box h3 {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+}
+.asked .asked-box p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+}
+.asked .option {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+}
+.asked .option .option-puls {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  align-items: center;
+}
+.asked .option .option-puls p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.asked .option .option-minus1 {
+  display: flex;
+  gap: 20px;
+}
+.asked .option .option-minus1 span {
+  padding-top: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.asked .option .option-minus1 p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.asked hr {
+  border: 1px solid rgb(71, 71, 71);
+}
+
+@media (max-width: 1100px) {
+  .asked {
+    width: 100%;
+    margin-top: 150px;
+  }
+  .asked .asked-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .asked .asked-box h3 {
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+  }
+  .asked .asked-box p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 27px;
+  }
+  .asked .option {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+  }
+  .asked .option .option-puls {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .asked .option .option-puls p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .asked .option .option-minus1 {
+    display: flex;
+    gap: 20px;
+  }
+  .asked .option .option-minus1 span {
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .asked .option .option-minus1 p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+}
+@media (max-width: 900px) {
+  .asked {
+    width: 80%;
+    margin-top: 150px;
+    justify-content: center;
+  }
+  .asked .asked-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .asked .asked-box h3 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .asked .asked-box p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+  }
+  .asked .option {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+  }
+  .asked .option .option-puls {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .asked .option .option-puls p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .asked .option .option-minus1 {
+    display: flex;
+    gap: 20px;
+  }
+  .asked .option .option-minus1 span {
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .asked .option .option-minus1 p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .asked {
+    width: 60%;
+    margin-top: 150px;
+    justify-content: center;
+  }
+  .asked .asked-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .asked .asked-box h3 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .asked .asked-box p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+  }
+  .asked .option {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+  }
+  .asked .option .option-puls {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .asked .option .option-puls p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .asked .option .option-minus1 {
+    display: flex;
+    gap: 20px;
+  }
+  .asked .option .option-minus1 span {
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .asked .option .option-minus1 p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

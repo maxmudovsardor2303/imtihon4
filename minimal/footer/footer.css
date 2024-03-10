@@ -1,1 +1,96 @@
-/*# sourceMappingURL=footer.css.map */
+.booster {
+  width: 900px;
+  background-color: rgb(2, 137, 122);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.booster .booster-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.booster .booster-item h2 {
+  color: #fff;
+}
+.booster .btn4 {
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 20px;
+  color: rgb(2, 137, 122);
+}
+.booster .booster-box {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .booster {
+    width: 100%;
+    background-color: rgb(2, 137, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+  }
+  .booster .booster-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .booster .booster-item h2 {
+    color: #fff;
+  }
+  .booster .btn4 {
+    width: 80px;
+    height: 20px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    color: rgb(2, 137, 122);
+  }
+}
+@media (max-width: 900px) {
+  .booster {
+    width: 100%;
+    background-color: rgb(2, 137, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+  }
+  .booster .booster-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .booster .booster-item h2 {
+    color: #fff;
+  }
+  .booster .btn4 {
+    width: 80px;
+    height: 20px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    color: rgb(2, 137, 122);
+  }
+  .booster-box {
+    width: 40%;
+  }
+}/*# sourceMappingURL=footer.css.map */
